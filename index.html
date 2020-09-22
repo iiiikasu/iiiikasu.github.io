@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.11.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.11.4, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/download-1-128x128.png" type="image/x-icon">
+  <meta name="description" content="ステマなんてヌルい。
+偽造・捏造・ハッキングまで含めて全てマーケティング術。東京の医学部を卒業。港区タワマンに住んで14年目。投資とマーケティングで生きてきました。最高月収12億円">
+  
+  <title>医カス流の悪魔のマーケティング術</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="menu cid-rV9uMb8nU2" once="menu" id="menu2-g">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                
+                
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-black display-4" href="index.html#header10-0">
+                        悪魔の情報商材術</a>
+                </li></ul>
+            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="https://twitter.com/iiiikasu">
+                    <span class="btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn">
+                    </span>
+                    Twitterへ</a></div>
+        </div>
+    </nav>
+</section>
+
+<section class="engine"><a href="https://mobirise.info/o">portfolio site templates</a></section><section class="header10 cid-rU6HCSrPef mbr-fullscreen mbr-parallax-background" id="header10-0">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-column mbr-white p-5 align-left col-lg-8 col-md-10">
+            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                医カス流<br>悪魔の<br>マーケティング</h1>
+            
+            <p class="mbr-text pb-3 mbr-fonts-style display-5">ステマなんてヌルい。<br>偽造・捏造・ハッキングまで<br>含めて全てが稼ぐ術。悪用禁止</p>
+            <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="index.html#features3-2">有料版を見る</a>
+                <a class="btn btn-md btn-white-outline display-4" href="https://drive.google.com/open?id=1CkxjxR64N0vhBfJWxarnoF8f5nB4dM8kz8ss_vAAhAI">無料版を見る</a></div>
+        </div>
+    </div>
+
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<section class="features3 cid-rU6IeUtJZt" id="features3-2">
+
+    
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-676x451.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">12億円を売り上げた<br>悪魔の情報商材術</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            Note史上、1週間で最も売れた有料投稿。人を騙す悪魔の手法と顧客名簿3000名もセットで13800円です。<br>数に限りがあります！</p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                    	<div class="navbar-buttons mbr-section-btn">
+                            <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+  class="btn btn-primary"
+  id="checkout-button-price_1HJbAPEdmFVR1Ul4tyZsDRZi"
+  role="link"
+  type="button"
+>
+ 購入する  
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbAPEdmFVR1Ul4tyZsDRZi');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbAPEdmFVR1Ul4tyZsDRZi', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-676x405.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">情報商材は世界へ羽ばたく</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            ベトナム史上、最大の詐欺と言われた700億円のICO。医カスが作ったスキームがモデルです。情報商材を海外で展開する上で必要なことが書いてあります。顧客名簿500名ついて4980円です。<br></p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                        <div class="navbar-buttons mbr-section-btn">
+                            <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+  class="btn btn-primary"
+  id="checkout-button-price_1HJbfvEdmFVR1Ul40iSfYu5M"
+  role="link"
+  type="button"
+>
+  購入する
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbfvEdmFVR1Ul40iSfYu5M');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbfvEdmFVR1Ul40iSfYu5M', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+
+
+                        </div>   
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-492x369.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">
+                            情報商材屋スタートキット</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">どのようにして自分も商材を売れるようになるか。スターターキットです。顧客名簿も100名に、個別での相談も可能なセットです。2980円です</p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                    	<div class="navbar-buttons mbr-section-btn">
+                            <script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+    class="btn btn-primary"
+  id="checkout-button-price_1HJbGGEdmFVR1Ul4skb0sAf0"
+  role="link"
+  type="button"
+>
+  購入する
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbGGEdmFVR1Ul4skb0sAf0');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbGGEdmFVR1Ul4skb0sAf0', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+
+                        </div>   
+                        </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-492x342.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">
+                            情報商材に必要な<br>プログラミング術まとめ</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">これからの情報商材はプログラミングを理解できないと搾取されます。必ず ITは勉強してください。プログラミングの個別講習もサンプルコードもつけて9800円です。プログラミング初めての人も歓迎です</p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                    	<div class="navbar-buttons mbr-section-btn">
+                         <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+class="btn btn-primary"
+  id="checkout-button-price_1HJbgVEdmFVR1Ul4d4aROihu"
+  role="link"
+  type="button"
+>
+  購入する
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbgVEdmFVR1Ul4d4aROihu');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbgVEdmFVR1Ul4d4aROihu', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+
+
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features3 cid-rWQJQHnATH" id="features3-n">
+
+    
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-1046x588.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">コロナで儲かる悪魔の補助金申請術</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">炎上必須。100件で6000万円の利益を上げた手法を公開。限定100部まで販売します。7980円</p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                    	<div class="navbar-buttons mbr-section-btn">
+                            <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+class="btn btn-primary"
+  id="checkout-button-price_1HJbnBEdmFVR1Ul4US0rsQUN"
+  role="link"
+  type="button"
+>
+  購入する
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbnBEdmFVR1Ul4US0rsQUN');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbnBEdmFVR1Ul4US0rsQUN', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-1046x700.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">悪魔のダークウェブ術で毎月25万円を稼ぐ副業</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">「せどり」等の副業より、圧倒的にコスパが良く、誰もやっていない副業があります。ダークウェブで稼いでるのは、日本で私だけ。悪魔のダークウェブ副業術を公開。これは10部しか売りません。価格は6980円です。</p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                    	<div class="navbar-buttons mbr-section-btn">
+                            <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+  class="btn btn-primary"
+  id="checkout-button-price_1HJbh6EdmFVR1Ul43gnY0bwf"
+  role="link"
+  type="button"
+>
+  購入する
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbh6EdmFVR1Ul43gnY0bwf');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbh6EdmFVR1Ul43gnY0bwf', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+
+
+                        </div>   
+                    	
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+        </div>
+    </div>
+
+    <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-1920x1275.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">3ヶ月でTwitterのフォロワーを2万人に増やす方法</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            曖昧なことは伝えません。どのようなキャラ設定で、どのような画像を投稿すれば、フォロワーが増えるかを詳細に説明しております。限定50部で8980円です。売り切れ御免です。
+                        </p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                        <div class="navbar-buttons mbr-section-btn">
+                            <!-- Load Stripe.js on your website. -->
+                            <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+class="btn btn-primary"
+  id="checkout-button-price_1HJbk1EdmFVR1Ul4yV3ZBaMz"
+  role="link"
+  type="button"
+>
+  購入する
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbk1EdmFVR1Ul4yV3ZBaMz');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbk1EdmFVR1Ul4yV3ZBaMz', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+
+
+                        </div>   
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section info4 cid-rUY4Kih0N7" id="info4-9">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(35, 35, 35);">
+    </div>
+    <div class="container">
+        <div class="justify-content-center row">
+            <div class="media-container-column title col-12 col-md-10">
+                <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">ローンチ体験キット</h2>
+                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    買う方から売る方へ。<br>仕掛ける側へ行こう</h3>
+                <p class="mbr-text align-right mbr-white mbr-fonts-style display-7"><strong>
+                    あなたも何かを販売してみませんか？<br>あなたの考える商品デザインから</strong><br><strong>実際の商品開発をお手伝い<br>私の保有する5000件のリストもプレゼント<br>あなたのプロジェクトに</strong><br><strong>医カスチームが本気で指導します</strong><br><strong>ローンチをしてみましょう</strong></p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header3 cid-rUYf6AciFR mbr-parallax-background" id="header3-b">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/mbr-1014x676.jpg" alt="Mobirise" title="">
+            </div>
+
+            <div class="media-content">
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1">
+                    9万8,000円で</h1>
+                
+                <div class="mbr-section-text mbr-white pb-3 ">
+                    <p class="mbr-text mbr-fonts-style display-5">・5000件のリスト<br>・商品デザインのコンサルティング<br>・商品開発のお手伝い<br>・SNSマーケティング指導<br>・全ての有料記事(3万円分)<br>ローンチを行うまで<br>チームでサポートします</p>
+                </div>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="http://iiiiikasu.s3-ap-northeast-1.amazonaws.com/page4.html">詳しく見る</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-gallery gallery5 cid-rUUYPNUBkz" id="gallery5-5">
+
+    
+
+    
+
+    <div class="container">
+        <h3 class="mbr-section-title align-center mbr-fonts-style display-2">Note史上、<br>最も売れた記事</h3>
+        <h4 class="mbr-section-subtitle align-center pb-4 mbr-fonts-style display-5">
+            情報商材の常識を覆す悪魔の手法</h4>
+        <div class="row" id="gallery" data-toggle="modal" data-target="#carouselModal">
+            <div class="col-sm-6 col-md-4 col-lg-3 item gallery-image">
+                <div class="item-wrapper">
+                    <img class="w-100" src="assets/images/eupn8itucaawt-n-510x615.jpg" alt="" data-target="#mbrCarousel" data-slide-to="0" title="">
+                </div>
+            </div><div class="col-sm-6 col-md-4 col-lg-3 item gallery-image">
+                <div class="item-wrapper">
+                    <img class="w-100" src="assets/images/eszukfzucaapb5q-510x695.jpg" alt="" data-target="#mbrCarousel" data-slide-to="3" title="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item gallery-image">
+                <div class="item-wrapper">
+                    <img class="w-100" src="assets/images/eupn8syu0aag0qh-510x712.jpg" alt="" data-target="#mbrCarousel" data-slide-to="1" title="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item gallery-image">
+                <div class="item-wrapper">
+                    <img class="w-100" src="assets/images/eupn7qkuuaai0ul-510x563.png" alt="" data-target="#mbrCarousel" data-slide-to="2" title="">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="modal mbr-slider fade" id="carouselModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div id="mbrCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/images/background1.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/background2.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/background3.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/background4.jpg" alt="">
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#mbrCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#mbrCarousel" data-slide-to="1"></li>
+                                <li data-target="#mbrCarousel" data-slide-to="2"></li>
+                                <li data-target="#mbrCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <a role="button" href="" class="close" data-dismiss="modal" aria-label="Close">
+                            </a>
+                            <a class="carousel-control-prev carousel-control" href="#mbrCarousel" role="button" data-slide="prev">
+                                <span class="mbri-left mbr-iconfont" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next carousel-control" href="#mbrCarousel" role="button" data-slide="next">
+                                <span class="mbri-right mbr-iconfont" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section info4 cid-rUXW8Cp9rz" id="info4-6">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(35, 35, 35);">
+    </div>
+    <div class="container">
+        <div class="justify-content-center row">
+            <div class="media-container-column title col-12 col-md-10">
+                <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">医カスとは</h2>
+                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    悪魔の商材屋、言葉の奇術師、<br>攻めすぎる投資家の</h3>
+                <p class="mbr-text align-right mbr-white mbr-fonts-style display-7">医学部卒の20代です。米国株メインの投資とマーケティングで生きてます。<br>最高月収12億円。<br>モノを売るのが凄く得意です。ハッキングが得意です。詐欺師は許しません。<br>麻布十番のクリスプで<br>アヴェンタドール停めてたら俺です。<br>著しくファッションセンスがない人も<br>俺です。</p>
+                <div class="mbr-section-btn align-right py-4"><a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1CkxjxR64N0vhBfJWxarnoF8f5nB4dM8kz8ss_vAAhAI">無料版Note</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section info2 cid-rU6ITF7OTk" id="info2-4">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row main justify-content-center">
+            <div class="media-container-column col-12 col-lg-3 col-md-4">
+                <div class="mbr-section-btn align-left py-4"><a class="btn btn-primary display-4" href="https://twitter.com/iiiikasu">医カスTwitterへ</a></div>
+            </div>
+            <div class="media-container-column title col-12 col-lg-7 col-md-6">
+                <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+                    聞きたいことは<br>Twitterで</h2>
+                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-5">何でも答えます</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+</body>
+</html>
