@@ -25,9 +25,6 @@
 </head>
 <body>
   <section class="menu cid-rV9uMb8nU2" once="menu" id="menu2-g">
-
-    
-
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="hamburger">
@@ -38,9 +35,7 @@
             </div>
         </button>
         <div class="menu-logo">
-            <div class="navbar-brand">
-                
-                
+            <div class="navbar-brand">         
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,9 +54,6 @@
 <section class="engine"><a href="https://mobirise.info/o">portfolio site templates</a></section><section class="header10 cid-rU6HCSrPef mbr-fullscreen mbr-parallax-background" id="header10-0">
 
     
-
-    
-
     <div class="container">
         <div class="media-container-column mbr-white p-5 align-left col-lg-8 col-md-10">
             <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
@@ -130,8 +122,8 @@
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
     })
     .then(function (result) {
       if (result.error) {
@@ -192,8 +184,8 @@
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
     })
     .then(function (result) {
       if (result.error) {
@@ -256,8 +248,8 @@
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
     })
     .then(function (result) {
       if (result.error) {
@@ -319,8 +311,8 @@ class="btn btn-primary"
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
     })
     .then(function (result) {
       if (result.error) {
@@ -392,8 +384,8 @@ class="btn btn-primary"
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
     })
     .then(function (result) {
       if (result.error) {
@@ -454,8 +446,8 @@ class="btn btn-primary"
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
     })
     .then(function (result) {
       if (result.error) {
@@ -527,8 +519,8 @@ class="btn btn-primary"
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
     })
     .then(function (result) {
       if (result.error) {
