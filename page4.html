@@ -579,8 +579,53 @@
                 <h2 class="align-left mbr-bold mbr-fonts-style display-2">仕掛ける側へ</h2>
             </div>
             <div class="media-container-column col-12 col-lg-3 col-md-4">
-                <div class="mbr-section-btn align-right py-4">
-                	<a class="btn btn-md btn-primary display-4" href="https://forms.gle/FPe17393fhyhhhKdA">今すぐ申し込む</a>
+                <div class="mbr-section-btn align-right py-4">        
+                	<button
+    class="btn btn-primary"
+  id="checkout-button-price_1HJbGGEdmFVR1Ul4skb0sAf0"
+  role="link"
+  type="button"
+>
+  購入する
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HJbGGEdmFVR1Ul4skb0sAf0');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HJbGGEdmFVR1Ul4skb0sAf0', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://iiiikasu.github.io/success.html',
+      cancelUrl: 'https://iiiikasu.github.io',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+
+
+
+
+                    
                 </div>
             </div>
         </div>
