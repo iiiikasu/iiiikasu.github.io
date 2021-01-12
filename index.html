@@ -343,11 +343,7 @@ class="btn btn-primary"
     </div>
 </section>
 
-<section class="features3 cid-rWQJQHnATH" id="features3-n">
-
-    
-
-    
+<section class="features3 cid-rWQJQHnATH" id="features3-n">    
     <div class="container">
         <div class="media-container-row">
             <div class="card p-3 col-12 col-md-6">
@@ -424,54 +420,53 @@ class="btn btn-primary"
                     <div class="mbr-section-btn text-center">
                     	<div class="navbar-buttons mbr-section-btn">
                             <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
+                          <script src="https://js.stripe.com/v3"></script>
 
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  class="btn btn-primary"
-  id="checkout-button-price_1HJbh6EdmFVR1Ul43gnY0bwf"
-  role="link"
-  type="button"
->
-  購入する
-</button>
+                          <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                          <button
+                            class="btn btn-primary"
+                            id="checkout-button-price_1HJbh6EdmFVR1Ul43gnY0bwf"
+                            role="link"
+                            type="button"
+                          >
+                            購入する
+                          </button>
 
-<div id="error-message"></div>
+                          <div id="error-message"></div>
 
-<script>
-(function() {
-  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+                          <script>
+                          (function() {
+                            var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1HJbh6EdmFVR1Ul43gnY0bwf');
-  checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
-    stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1HJbh6EdmFVR1Ul43gnY0bwf', quantity: 1}],
-      mode: 'payment',
-      // Do not rely on the redirect to the successUrl for fulfilling
-      // purchases, customers may not always reach the success_url after
-      // a successful payment.
-      // Instead use one of the strategies described in
-      // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
-    })
-    .then(function (result) {
-      if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-})();
-</script>
+                            var checkoutButton = document.getElementById('checkout-button-price_1HJbh6EdmFVR1Ul43gnY0bwf');
+                            checkoutButton.addEventListener('click', function () {
+                              // When the customer clicks on the button, redirect
+                              // them to Checkout.
+                              stripe.redirectToCheckout({
+                                lineItems: [{price: 'price_1HJbh6EdmFVR1Ul43gnY0bwf', quantity: 1}],
+                                mode: 'payment',
+                                // Do not rely on the redirect to the successUrl for fulfilling
+                                // purchases, customers may not always reach the success_url after
+                                // a successful payment.
+                                // Instead use one of the strategies described in
+                                // https://stripe.com/docs/payments/checkout/fulfillment
+                                successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+                                cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+                              })
+                              .then(function (result) {
+                                if (result.error) {
+                                  // If `redirectToCheckout` fails due to a browser or network
+                                  // error, display the localized error message to your customer.
+                                  var displayError = document.getElementById('error-message');
+                                  displayError.textContent = result.error.message;
+                                }
+                              });
+                            });
+                          })();
+                          </script>
 
 
                         </div>   
-                    	
                     </div>
                 </div>
             </div>
@@ -482,58 +477,128 @@ class="btn btn-primary"
         </div>
     </div>
 
-    <div class="card p-3 col-12 col-md-6">
+---
+<section class="features3 cid-rWQJQHnATH" id="features3-n">    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="assets/images/mbr-1920x1275.jpg" alt="Mobirise" title="">
+                        <img src="assets/images/mbr-1046x588.jpg" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">3ヶ月でTwitterのフォロワーを2万人に増やす方法</h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            曖昧なことは伝えません。どのようなキャラ設定で、どのような画像を投稿すれば、フォロワーが増えるかを詳細に説明しております。限定50部で8980円です。売り切れ御免です。
+                          曖昧なことは伝えません。どのようなキャラ設定で、どのような画像を投稿すれば、フォロワーが増えるかを詳細に説明しております。限定50部で8980円です。売り切れ御免です。
                         </p>
                     </div>
                     <div class="mbr-section-btn text-center">
-                        <div class="navbar-buttons mbr-section-btn">
-                            <!-- Load Stripe.js on your website. -->
-                            <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
+                      <div class="navbar-buttons mbr-section-btn">
+                          <script src="https://js.stripe.com/v3"></script>
 
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-class="btn btn-primary"
-  id="checkout-button-price_1HJbk1EdmFVR1Ul4yV3ZBaMz"
-  role="link"
-  type="button"
->
-  購入する
-</button>
+                        <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                        <button
+                        class="btn btn-primary"
+                          id="checkout-button-price_1HJbk1EdmFVR1Ul4yV3ZBaMz"
+                          role="link"
+                          type="button"
+                        >
+                          購入する
+                        </button>
 
-<div id="error-message"></div>
+                        <div id="error-message"></div>
+
+                        <script>
+                        (function() {
+                          var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
+
+                          var checkoutButton = document.getElementById('checkout-button-price_1HJbk1EdmFVR1Ul4yV3ZBaMz');
+                          checkoutButton.addEventListener('click', function () {
+                            // When the customer clicks on the button, redirect
+                            // them to Checkout.
+                            stripe.redirectToCheckout({
+                              lineItems: [{price: 'price_1HJbk1EdmFVR1Ul4yV3ZBaMz', quantity: 1}],
+                              mode: 'payment',
+                              // Do not rely on the redirect to the successUrl for fulfilling
+                              // purchases, customers may not always reach the success_url after
+                              // a successful payment.
+                              // Instead use one of the strategies described in
+                              // https://stripe.com/docs/payments/checkout/fulfillment
+                              successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
+                              cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+                            })
+                            .then(function (result) {
+                              if (result.error) {
+                                // If `redirectToCheckout` fails due to a browser or network
+                                // error, display the localized error message to your customer.
+                                var displayError = document.getElementById('error-message');
+                                displayError.textContent = result.error.message;
+                              }
+                            });
+                          });
+                        })();
+                        </script>
+
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/mbr-1046x700.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">今使うべきプラットフォーム</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">今だにNoteを使ってませんか？今だにNoteを使ってませんか？自分のウェブサイトを作って、自分の決済システムを連携させよう。しかもサーバー代、使用料金も一切不要で管理しましょう。その方法をお伝えします。5480円となります。</p>
+                    </div>
+                    <div class="mbr-section-btn text-center">
+                      <div class="navbar-buttons mbr-section-btn">
+                            <!-- Load Stripe.js on your website. -->
+                          <script src="https://js.stripe.com/v3"></script>
+
+                          <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                          <button
+                            class="btn btn-primary"
+                            id="checkout-button-price_1I8anSEdmFVR1Ul4skQybpWq"
+                            role="link"
+                            type="button"
+                          >
+                            購入する
+                          </button>
+
+                          <div id="error-message"></div>
 
 <script>
 (function() {
   var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1HJbk1EdmFVR1Ul4yV3ZBaMz');
+  var checkoutButton = document.getElementById('checkout-button-price_1I8anSEdmFVR1Ul4skQybpWq');
   checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
+    /*
+     * When the customer clicks on the button, redirect
+     * them to Checkout.
+     */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1HJbk1EdmFVR1Ul4yV3ZBaMz', quantity: 1}],
+      lineItems: [{price: 'price_1I8anSEdmFVR1Ul4skQybpWq', quantity: 1}],
       mode: 'payment',
-      // Do not rely on the redirect to the successUrl for fulfilling
-      // purchases, customers may not always reach the success_url after
-      // a successful payment.
-      // Instead use one of the strategies described in
-      // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
+      /*
+       * Do not rely on the redirect to the successUrl for fulfilling
+       * purchases, customers may not always reach the success_url after
+       * a successful payment.
+       * Instead use one of the strategies described in
+       * https://stripe.com/docs/payments/checkout/fulfill-orders
+       */
+      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html/success',
+      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html/canceled',
     })
     .then(function (result) {
       if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
+        /*
+         * If `redirectToCheckout` fails due to a browser or network
+         * error, display the localized error message to your customer.
+         */
         var displayError = document.getElementById('error-message');
         displayError.textContent = result.error.message;
       }
@@ -544,13 +609,15 @@ class="btn btn-primary"
 
 
                         </div>   
-                        
                     </div>
                 </div>
             </div>
 
             
 
+            
+        </div>
+    </div>
             
         </div>
     </div>
