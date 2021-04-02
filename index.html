@@ -375,68 +375,6 @@ class="btn btn-primary"
             <div class="card p-3 col-12 col-md-6">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="assets/images/mbr-1046x588.jpg" alt="Mobirise" title="">
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">コロナで儲かる悪魔の補助金申請術</h4>
-                        <p class="mbr-text mbr-fonts-style display-7">炎上必須。100件で6000万円の利益を上げた手法を公開。限定100部まで販売します。7980円</p>
-                    </div>
-                    <div class="mbr-section-btn text-center">
-                    	<div class="navbar-buttons mbr-section-btn">
-                            <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
-
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-class="btn btn-primary"
-  id="checkout-button-price_1HJbnBEdmFVR1Ul4US0rsQUN"
-  role="link"
-  type="button"
->
-  購入する
-</button>
-
-<div id="error-message"></div>
-
-<script>
-(function() {
-  var stripe = Stripe('pk_live_51HJTHgEdmFVR1Ul4aB02A7vuZf09kX7XTFtWSjaZltnYVKINNKoa5TEyozqV1t15H39o4hwXUNt5vNRCOI0IyUfD00paO78j7e');
-
-  var checkoutButton = document.getElementById('checkout-button-price_1HJbnBEdmFVR1Ul4US0rsQUN');
-  checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
-    stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1HJbnBEdmFVR1Ul4US0rsQUN', quantity: 1}],
-      mode: 'payment',
-      // Do not rely on the redirect to the successUrl for fulfilling
-      // purchases, customers may not always reach the success_url after
-      // a successful payment.
-      // Instead use one of the strategies described in
-      // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/success.html',
-      cancelUrl: 'https://iiiiikasu.s3-ap-northeast-1.amazonaws.com/index.html',
-    })
-    .then(function (result) {
-      if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-})();
-</script>
-
-                        </div>   
-                    </div>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
                         <img src="assets/images/mbr-1046x700.jpg" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
